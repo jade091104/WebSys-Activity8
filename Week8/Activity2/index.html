@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Application</h1>
+    </header>
+    <main>
+        <div class="quiz-container">
+            <ol>
+                <li class="question">What is the capital of France?
+                    <ul class="options">
+                        <li data-answer="false">Berlin</li>
+                        <li data-answer="false">Madrid</li>
+                        <li data-answer="true">Paris</li>
+                        <li data-answer="false">Rome</li>
+                    </ul>
+                </li>
+                <li class="question">Which is the largest planet in the solar system?
+                    <ul class="options">
+                        <li data-answer="false">Earth</li>
+                        <li data-answer="true">Jupiter</li>
+                        <li data-answer="false">Mars</li>
+                        <li data-answer="false">Venus</li>
+                    </ul>
+                </li>
+                <li class="question">What does CPU stand for?
+                    <ul class="options">
+                        <li data-answer="true">Central Processing Unit</li>
+                        <li data-answer="false">Central Programming Unit</li>
+                        <li data-answer="false">Computer Processing Unit</li>
+                        <li data-answer="false">Central Peripheral Unit</li>
+                    </ul>
+                </li>
+                <li class="question">Who developed the theory of relativity?
+                    <ul class="options">
+                        <li data-answer="false">Isaac Newton</li>
+                        <li data-answer="true">Albert Einstein</li>
+                        <li data-answer="false">Nikola Tesla</li>
+                        <li data-answer="false">Galileo Galilei</li>
+                    </ul>
+                </li>
+                <li class="question">Which programming language is known as the 'mother of all languages'?
+                    <ul class="options">
+                        <li data-answer="false">Python</li>
+                        <li data-answer="false">Java</li>
+                        <li data-answer="false">C++</li>
+                        <li data-answer="true">C</li>
+                    </ul>
+                </li>
+                <li class="question">What is the chemical symbol for gold?
+                    <ul class="options">
+                        <li data-answer="false">Ag</li>
+                        <li data-answer="true">Au</li>
+                        <li data-answer="false">Pb</li>
+                        <li data-answer="false">Fe</li>
+                    </ul>
+                </li>
+                <li class="question">Which planet is known as the Red Planet?
+                    <ul class="options">
+                        <li data-answer="false">Venus</li>
+                        <li data-answer="false">Saturn</li>
+                        <li data-answer="true">Mars</li>
+                        <li data-answer="false">Jupiter</li>
+                    </ul>
+                </li>
+                <li class="question">Who invented the World Wide Web?
+                    <ul class="options">
+                        <li data-answer="false">Bill Gates</li>
+                        <li data-answer="false">Steve Jobs</li>
+                        <li data-answer="true">Tim Berners-Lee</li>
+                        <li data-answer="false">Mark Zuckerberg</li>
+                    </ul>
+                </li>
+                <li class="question">What is the primary function of RAM in a computer?
+                    <ul class="options">
+                        <li data-answer="false">To store files permanently</li>
+                        <li data-answer="true">To store temporary data for processing</li>
+                        <li data-answer="false">To process graphics</li>
+                        <li data-answer="false">To power the system</li>
+                    </ul>
+                </li>
+                <li class="question">Which element is necessary for respiration?
+                    <ul class="options">
+                        <li data-answer="true">Oxygen</li>
+                        <li data-answer="false">Nitrogen</li>
+                        <li data-answer="false">Hydrogen</li>
+                        <li data-answer="false">Carbon</li>
+                    </ul>
+                </li>
+            </ol>
+            <button id="submit">Submit</button>
+            <button id="retake" style="display:none;">Retake Quiz</button>
+            <h2 id="score"></h2>
+        </div>
+    </main>
+
+    <footer>Activity Quiz</footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>

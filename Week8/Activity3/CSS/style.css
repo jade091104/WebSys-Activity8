@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4A90E2, #9B59B6);
+    color: white;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Field */
+input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* Input Hover */
+input:focus {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Placeholder */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FF6B81, #FF3E62);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Hover */
+button:hover {
+    background: linear-gradient(135deg, #FF3E62, #FF1E50);
+    transform: translateY(-2px);
+}
+
+/* Weather Info */
+.weather-info {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+    input, button {
+        font-size: 16px;
+    }
+}

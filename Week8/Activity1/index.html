@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <main>
+        <div id="gallery-container">
+            <button id="prev">Previous</button>
+            <div id="gallery">
+                <div class="image-item"><img src="img/bluebird.jpg" alt="Image 1"></div>
+                <div class="image-item"><img src="img/nut.jpg" alt="Image 2"></div>
+                <div class="image-item"><img src="img/sunset.jpg" alt="Image 3"></div>
+                <div class="image-item"><img src="img/tiger.jpg" alt="Image 4"></div>
+                <div class="image-item"><img src="img/treeoflife.jpg" alt="Image 5"></div>
+            </div>
+            <button id="next">Next</button>
+        </div>
+    
+        <!-- Lightbox (Preview) -->
+        <div id="lightbox">
+            <span id="close">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </main>
+
+    <footer>Beautiful Nature</footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
